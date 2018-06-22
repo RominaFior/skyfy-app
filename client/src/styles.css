@@ -1,0 +1,312 @@
+/*GLOBAL*/
+
+html, body {
+    margin: 0px;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    background-image: url('./assets/images/UltraVoilet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke
+}
+
+.actived {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #ffcff9;
+    padding-bottom: 4px;
+}
+
+.central {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.seguro {
+    margin-top: -35px;
+    background: whitesmoke;
+    position: absolute;
+    height: 40px;
+}
+
+.seguro-song {
+    right: 19px;
+    margin-top: -52px;
+}
+
+
+.navigation {
+    text-align: center;
+    color: white;
+    background: transparent;
+    height: 100%;
+    border-right-style: solid;
+    border-right-width: 0.5px;
+    border-right-color: #ccc
+}
+
+.jumbotron {
+    background: transparent;
+    padding-top: 80px;
+}
+
+.secundario {
+    color: #ccc;
+}
+
+.btn-danger{
+    color: white !important;
+}
+
+/*login y register*/
+
+#identificate, #registrate{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.bienvenido h1{
+text-align:center;
+padding-top: 30px;
+font-weight: bold;
+font-size: 50px
+}
+/*barra lateral*/
+
+.head-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.navigation a {
+    color: #ddd;
+    margin-top: 29px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.navigation .glyphicon {
+    padding-top: 30px;
+    font-size: 25px;
+    display: block;
+    width: 100%;
+}
+
+#user_logged {
+    background: transparent;
+    padding-top: 120px;
+    width: 100%;
+}
+
+#user_logged .user-image {
+    background: #eee;
+    border-radius: 100px;
+    height: 57px;
+    width: 57px;
+    margin: 0px auto;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+#user_logged .user-image img {
+    width: 57px;
+}
+
+/*detalle de artista y album*/
+
+.head-page h1, .head-page a{
+    margin-left: 10px;
+}
+
+#artist-head-card .image, #album-head-card .image {
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    float: left;  
+    margin-right: 30px;
+    margin-left: 22px
+}
+#artist-head-card .data h1{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#artist-head-card .data p{
+    font-size: 18px;
+}
+
+#album-head-card .data a{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+#artist-head-card .image img, #album-head-card .image img {
+    height: 170px
+}
+
+/*artistas y albums*/
+
+.artist_image_for_edit img, .album_image_for_edit img {
+    width: 160px
+}
+
+.artist-name {
+    font-size: 18px;
+}
+
+.artist-list, .album-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    min-height: 400px;
+}
+
+.artist-item, .album-item {
+    width: 23%;
+    padding: 0px;
+    height: 317px;  
+    border-radius: 13px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+#album-head-card .data p{
+    font-size: 18px;
+}
+.artist-item .artist-image, .album-item .album-image {
+    height: 240px;
+    width: 100%;  
+    overflow: hidden;
+    
+}
+
+.artist-item .artist-image img {
+    min-width: 100%;
+    height: 100%
+}
+
+.artist-item .artist-name, .album-item .album-name {
+    color: #9b9b9b;
+    padding: 10px;
+    background: whitesmoke;
+    
+}
+
+.artist-item .artist-name a, .album-item .album-name a {
+    color: #717171;
+    margin-bottom: 5px;
+}
+
+.buttons a, .seguro a {
+    margin-right: 5px;
+}
+
+/*albums*/
+
+.album-list {
+    height: auto;
+    margin-bottom: 715px;
+}
+
+.album-item .album-image {
+    height: 188px;
+}
+
+.album-item {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.album-item .album-image img {
+    width: 100%;
+}
+
+.album-name{
+    font-size: 18px;
+}
+
+/*canciones*/
+
+#songs-list {
+    margin: 0px;
+    padding: 0px;
+    min-height: 800px;
+    padding-bottom: 200px;
+}
+
+.song-item {
+    list-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #ccc;
+    padding-top: 20px;
+}
+
+.song-item .title {
+    padding: 18px;
+}
+
+.song-item .buttons {
+    float: right;
+}
+
+.song-item .btn-success {
+    margin-right: 10px;
+}
+
+#tema{
+    font-size: 17px
+}
+
+/*player*/
+
+.player {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;   
+    color: #ccc;
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    border-top-color: #ccc
+}
+
+.player .album-image {
+    float: left;
+    width: 130px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.player .album-image img {
+    height: 100%;
+}
+
+.player .audio-file {
+    width: 55%;
+    height: 60px;   
+    float: left;
+}
+
+.player audio {
+    
+    width: 100%;
+    margin-left: 130px;
+    margin-top: -15px;
+    
+}
+
+.audio-file #play-song-title{
+    font-size: 22px
+}
+

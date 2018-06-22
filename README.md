@@ -1,0 +1,4 @@
+# SKYFY
+
+[Documentation](./docs)
+
